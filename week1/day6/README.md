@@ -1,82 +1,76 @@
-📊 SQL Practice – Advanced Queries (21–50)
-📌 Overview
+# 📊 SQL Practice & Learnings
 
-This project contains a collection of advanced SQL queries designed to strengthen skills in data analysis, aggregation, and window functions. The queries are written on a student management system dataset, covering real-world scenarios like ranking, filtering, and reporting.
+## 📌 Overview
+This repository contains my hands-on SQL practice where I worked on a variety of real-world style queries to improve my understanding of sql.
 
-🧠 Topics Covered
-🔹 1. Sorting & Filtering
-ORDER BY (ascending & descending)
-WHERE conditions with multiple filters
-Date-based filtering
+The focus is on building strong fundamentals and gradually moving towards advanced SQL concepts used in real data-driven roles.
 
-🔹 2. Aggregate Functions
-COUNT()
-SUM()
-AVG()
-MAX()
-GROUP BY
-HAVING clause
+---
 
-🔹 3. Joins
-INNER JOIN
-LEFT JOIN
-Handling missing (NULL) values
+## 🧠 What I Practiced
 
-🔹 4. Subqueries
-Nested queries for filtering
-Comparing with overall averages
-Derived tables
+### 🔹 Basic Querying
+- Filtering data using `WHERE`
+- Sorting results using `ORDER BY`
+- Working with conditions and date filters
 
-🔹 5. Window Functions (Advanced SQL)
-ROW_NUMBER()
-RANK()
-DENSE_RANK()
-NTILE()
-PERCENT_RANK()
-CUME_DIST()
+### 🔹 Aggregations
+- Using `COUNT()`, `SUM()`, `AVG()`, `MAX()`
+- Grouping data with `GROUP BY`
+- Filtering grouped data using `HAVING`
 
-🔹 6. Analytical Functions
-Running totals
-Cumulative averages
-Partitioning data using OVER (PARTITION BY)
-Ordering within partitions
+### 🔹 Joins
+- `INNER JOIN` to combine related data  
+- `LEFT JOIN` to include missing records  
+- Understanding relationships between tables  
 
-🔹 7. Lead & Lag Functions
-LAG() → Previous row value
-LEAD() → Next row value
+### 🔹 Subqueries
+- Writing nested queries  
+- Using derived tables  
+- Comparing individual data with overall values  
 
-🔹 8. Ranking & Top-N Queries
-Top 3 highest scoring students
-Nth highest value (3rd highest marks)
-Department-wise ranking
+---
 
-🔹 9. Conditional & Comparative Analysis
-Above average performance
-Department vs overall comparisons
-Filtering based on aggregated conditions
+## 📈 Advanced Concepts Learned
 
-🔹 10. Reporting Queries
-Combined reports using multiple tables
-Department-wise analysis
-Student performance reports
-🗂️ Dataset Used
+### 🔸 Window Functions
+- `ROW_NUMBER()`
+- `RANK()` and `DENSE_RANK()`
+- `NTILE()` for grouping data
+- `PERCENT_RANK()` and `CUME_DIST()`
 
-The queries are based on a structured dataset containing:
+### 🔸 Analytical Queries
+- Running totals  
+- Cumulative averages  
+- Partitioning data using `OVER (PARTITION BY)`  
+- Ordered calculations  
 
-Students
-Staff
-Departments
-Marks / Exams
-🎯 Key Learnings
-Writing optimized SQL queries for real-world problems
-Using window functions for advanced analytics
-Performing multi-level aggregations
-Building reports directly using SQL
-Handling NULL values and edge cases
-🚀 Use Case
+### 🔸 LAG & LEAD
+- `LAG()` to access previous row values  
+- `LEAD()` to access next row values  
 
-These queries are useful for:
+---
 
-Data Analyst interview preparation
-Academic practice (DBMS/SQL labs)
-Real-world data reporting scenarios
+## 💡 Key Learnings
+- Improved ability to write structured and efficient SQL queries  
+- Understood how to analyze data using aggregations and window functions  
+- Learned how to compare individual performance with group-level metrics  
+- Gained confidence in solving real-world SQL problems  
+
+---
+
+## 🗂️ Dataset Used
+Practice was done using a structured dataset containing:
+- `students`
+- `staff`
+- `departments`
+- `marks`
+
+---
+
+## 🎯 Goal
+To build a strong foundation in SQL and become confident in solving data analysis problems commonly asked in interviews and used in real-world scenarios.
+
+---
+
+⭐ Consistent practice is the key to mastering SQL.
